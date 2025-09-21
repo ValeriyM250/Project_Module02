@@ -1,6 +1,6 @@
 package org.example.Animals;
 
-import org.example.Cordinate;
+import org.example.fieladMechanics.Cordinate;
 
 public enum Direction {
     UP(0, 1),

@@ -1,7 +1,9 @@
 package org.example.Animals;
 
-import org.example.Cordinate;
+import org.example.fieladMechanics.Cordinate;
+
+import java.util.Random;
 
 public interface MovementStrategy {
-    Cordinate makeStep();
+    Cordinate makeStep(Random random, Cordinate currentPos);
 }
